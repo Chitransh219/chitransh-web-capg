@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#menu{
+    height:70px;
+    text-decoration: none;
+    display: inline-block;
+}
+#menu .menu-items a{
+    float: right;
+}

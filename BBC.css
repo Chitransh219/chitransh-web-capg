@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,Arial,freesans,sans-serif;
+}
+#bbclogo{
+    height:30px;
+    width:90px;
+    margin-top: 5px;
+    float: left;
+    margin-right: 15px;
+}
+#topbar{
+    margin: 0 auto;
+    width: 1180px;
+    height: 40px;
+}
+.topbar-section{
+    float: left;
+    border-left: 1px grey solid;
+    height: 100%;
+}
+#signincircle{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 8px;
+    float: left;
+}
+#signintext{
+    position: relative;
+    top: 18px;
+    padding-right: 60px;
+    font-weight: bold;
+    font-size: 90%;
+}
+.mainfields{
+    position: relative;
+    top: 18px;
+    font-weight: bold;
+    font-size: 85%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#morearrow{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+#moretext{
+    position: relative;
+    font-weight: bold;
+    font-size: 85%;
+    left: 16px;
+    top: 17px;
+    float: left;
+}
+#search{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 85%;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    height: 25px;
+    border: 0px;
+    background-color: #E4E4E4;
+    float: left;
+    width: 180px;
+}
+#search-icon{
+    height: 26px;
+    width: 24px;
+    margin-top: 10px;
+    background-color: #E4E4E4;
+}
+#topbar2{
+    height: 100px;
+    background-color: #bb1919;
+}
+#news{
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+.topbar-section2{
+    float: left;
+    padding: 10px;
+    border-left: 1px #BB4545 solid;
+    font-size: 14px;
+    line-height: 5px;
+    border-width: thin;
+}
+.topbar-section2 a{
+    text-decoration: none;
+    color: white;
+}
+#down-red-arrow{
+    height: 12px;
+    width: 12px;
+    padding-left: 2px;
+    position: relative;
+    top: 6px;
+}
+#technology{
+    clear: both;
+    margin-left: 100px;
+    width: 800px;
+}
+.technonews{
+    width: 800px;
+    margin-left: 100px;
+    color: dodgerblue;
+    border-right: 1px grey solid;
+}
+.technodata{
+    color: black;
+    text-align: justify;
+}
+.technodata img{
+    height: 16px;
+    width: 16px;
+}
+.technodata hr{
+    width: 50px;
+    color: #bb1919;
+}
+#play-button{
+    position: relative;
+    top: 3px;
+    float: left;
+}
+#article-link{
+    text-decoration: none;
+    color:black;
+    float: left;
+}
+#article-link:hover{
+    color: blueviolet;
+}
+#article-image{
+    width: 400px;
+    position: relative;
+    margin-left: 50px;
+    height: 300px;
+    top: -130px;
+}
+#secondary-content{
+    width: 400;
+    float: left;
+}

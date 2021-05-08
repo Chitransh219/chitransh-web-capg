@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Css practice</title>
+        <style type="text/CSS">
+            div{
+                background-color: red;
+                width:300px;
+                height: 200px;
+            }
+            .justify-text{
+                text-align: justify;
+            }
+            
+            body{
+                margin: 0;
+                padding: 0
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div><p class="justify-text">this is out first paragraph, where we will  use our first class</p></div>
+        <div><p class="justify-text">this is out first paragraph, where we will  use our first class</p></div>
+        <a href="https://google.com" target="_top">google</a>
+        <button id="button">click me</button>
+        <p id="para">good morning all</p>
+        <script type="text/javascript">
+            alert("page is loaded")
+            document.getElementById("para").innerHTML="afternoon"
+            document.getElementById("button").onclick=function(){
+                document.getElementById("para").innerHTML="good morning all"
+            }
+        </script>
+        </body>
+</html>

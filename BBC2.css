@@ -1,0 +1,27 @@
+body{
+    margin : 0;
+    padding: 0;
+}
+#topbar{
+    width: 1100px;
+    margin: 0 auto;
+    height: 40px;
+}
+#BBC-logo{
+    height: 30px;
+    width: 50px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.topbar-section{
+    border-left: 1px grey solid;
+    float: left;
+    height: 100%
+}
+#signin{
+    width: 23px;
+    height: 23px;
+    margin-top: 8px;
+    margin-left: 10px; 
+}
